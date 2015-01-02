@@ -1,5 +1,5 @@
 """
-Django settings for crmapp project.
+Django settings for webupdown project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -35,11 +35,11 @@ SECRET_KEY = get_env_variable('WEB_UP_DOWN_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
-CRMEASY_DB_PASS = False
+WEBUPDOWN_DB_PASS = False
 if ENV_ROLE == 'development':
     DEBUG = True
     TEMPLATE_DEBUG = DEBUG
-    CRMEASY_DB_PASS = get_env_variable('webupdownusers_DB_PASS')
+    WEBUPDOWNUSERS_DB_PASS = get_env_variable('WEBUPDOWNUSERS_DB_PASS')
 
 ALLOWED_HOSTS = ['*']
 
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'webupdownusersDB',
         'USER': 'postgres',
-        'PASSWORD': webupdownusers_DB_PASS,
+        'PASSWORD': WEBUPDOWNUSERS_DB_PASS,
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
