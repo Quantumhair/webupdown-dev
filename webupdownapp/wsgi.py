@@ -1,5 +1,5 @@
 """
-WSGI config for crmapp project.
+WSGI config for webupdown project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
