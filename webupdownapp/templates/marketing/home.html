@@ -11,53 +11,44 @@
             <h1 class="col-md-8">Never Miss Another Opportunity</h1>
         </div>
         <div class="row">
-            <p class="col-md-8">A CRM application that lets you track
-            all of your customers, meetings, notes,
-            and plans. Never forget an important
-            contact or follow up task again.</p>
+            <p class="col-md-8">A web based solution to your web 2.0 and social account needs. Stop wasting time manually checking your sites to see when they were updated or if they've been banned. Save money on proxies that you'll need to safely check these accounts on a regular basis. Simple. Easy. Time and Money saving.</p>
         </div>
         <div class="row">
             {# First Signup Link #}
             <a href="{% url 'sub_new' %}"
-               class="sign-up btn btn-success">Sign Up Now for $15/month!
+               class="sign-up btn btn-success">Sign Up Now for $5/month!
             </a>
         </div>
     </div>
 </div>
 {# Main Section #}
 <div class="mkt-s2 container">
-    <h2 class="mkt-s2-h">Why Buy CRM Easy?</h2>
+    <h2 class="mkt-s2-h">Why Use SM Account Validator?</h2>
     <div class="mkt-s2-body">
         <div class="col-md-4 mkt-vp">
             <img class="" src="{{ STATIC_URL }}images/clock.png"/>
             <h5>Save Time</h5>
-            <p>By tracking your customers in
-            an easy to use application you'll
-            be able to find them faster. Don't
-            waste time searching email, looking
-            at business cards, or looking online -
-            just open CRM Easy!</p>
+            <p>By automating this process you'll save the time you would 
+		normally spend checking accounts, copying and pasting, on and on
+		and on.</p>
         </div>
         <div class="col-md-4 mkt-vp">
             <img class="" src="{{ STATIC_URL }}images/lightbulb.png"/>
-            <h5>Stay Current</h5>
-            <p>Keeping track of customer details
-            is a critical part of serving the customer
-            right. Make sure you know what they want and when
-            they want it. Use CRM Easy to track all customer
-            communications.</p>
+            <h5>Stay Safe</h5>
+            <p>Web 2.0 and Social sites keep track of IPs - constantly pinging your own sites can leave
+		a footprint, which you want to avoid. Using our automated service takes the need to pay
+		for proxies off of your hands and your bank account!</p>
         </div>
         <div class="col-md-4 mkt-vp">
             <img class="" src="{{ STATIC_URL }}images/dollar.png"/>
-            <h5>Win Business</h5>
-            <p>By tracking customers and staying up
-            to date on their requirements you'll be
-            in a better position to sell your products
-            or services. You win and so does the customer.</p>
+            <h5>Save Money</h5>
+            <p>Time is money. Save your time by automating this important part of maintaining a network. Doing this
+		on your own would require either an outsourcer with proxies or additional time on your end
+		and proxies!</p>
         </div>
     </div>
     {# Second Signup Link #}
-    <a href="{% url 'sub_new' %}" class=" sgn-btm ">SIGN UP FOR ONLY $15/MONTH</a>
+    <a href="{% url 'sub_new' %}" class=" sgn-btm ">SIGN UP FOR ONLY $5/MONTH</a>
 </div>
 
 {% endblock content %}
