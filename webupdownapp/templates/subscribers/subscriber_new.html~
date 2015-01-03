@@ -7,7 +7,7 @@
             <form id="user-reg-form" action="." method="post">
                 {% csrf_token %}
                 {# Username & Password Section #}
-                <h3>Signup for a $5 Monthly Subscription</h3>
+                <h3>Signup for a $15 Monthly Subscription</h3>
                 <h5 class="sn-sh">CREATE A USERNAME AND PASSWORD</h5>
                 <table class="table">
                     <tbody>
