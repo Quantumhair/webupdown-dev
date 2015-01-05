@@ -39,8 +39,9 @@ WEBUPDOWN_DB_PASS = False
 if ENV_ROLE == 'development':
     DEBUG = True
     TEMPLATE_DEBUG = DEBUG
-    WEBUPDOWN_DB_PASS = get_env_variable('WEBUPDOWNUSERS_DB_PASS')
+    WEBUPDOWNUSERS_DB_PASS = get_env_variable('WEBUPDOWNUSERS_DB_PASS')
 
+WEBUPDOWNUSERS_DB_PASS = get_env_variable('WEBUPDOWNUSERS_DB_PASS')
 ALLOWED_HOSTS = ['*']
 
 
