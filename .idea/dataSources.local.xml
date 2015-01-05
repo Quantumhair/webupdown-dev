@@ -3,8 +3,7 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Django default" uuid="e3a17075-2c8d-473f-aab2-8cca407b7989">
       <first-sync>true</first-sync>
-      <user-name>quantumhair</user-name>
-      <user-password>df99dfd9dfc1dfcbdfdedfcfdfc8dfc5dfcbdfd8dfce</user-password>
+      <user-name>postgres</user-name>
     </data-source>
   </component>
 </project>
