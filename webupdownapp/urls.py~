@@ -9,7 +9,7 @@ urlpatterns = patterns('',
 
     # Subscriber related URLs
     url(r'^signup/$',
-        'crmapp.subscribers.views.subscriber_new', name='sub_new'
+        'webupdownapp.subscribers.views.subscriber_new', name='sub_new'
     ),
 
 

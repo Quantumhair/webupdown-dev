@@ -1,4 +1,7 @@
 from django.conf.urls import patterns, include, url
+from django.contrib import admin
+
+admin.autodiscover()
 
 from marketing.views import HomePage
 
@@ -14,7 +17,8 @@ urlpatterns = patterns('',
 
 
     # Admin URL
-
+    (r'^admin/', include(admin.site.urls)),
+	
 
     # Login/Logout URLs
 
