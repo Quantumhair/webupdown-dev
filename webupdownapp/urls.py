@@ -31,6 +31,9 @@ urlpatterns = patterns('',
     ),
 
     # Account related URLs
+    url(r'^account/new/$',
+    'webupdownapp.accounts.views.account_cru', name='account_new'
+    ),
     url(r'^account/list/$',
         AccountList.as_view(), name='account_list'
     ),
