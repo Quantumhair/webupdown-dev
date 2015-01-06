@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_list.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/base.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/urls.py" afterPath="$PROJECT_DIR$/webupdownapp/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/accounts/views.py" afterPath="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
-    </list>
+    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="" />
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,13 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6154748" vertical-offset="0" max-vertical-offset="853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
               <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.93419504" vertical-offset="0" max-vertical-offset="885">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +95,7 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_view.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/accounts/forms.py" />
       </list>
     </option>
   </component>
@@ -95,8 +103,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="64" />
+    <option name="x" value="228" />
+    <option name="y" value="34" />
     <option name="width" value="1400" />
     <option name="height" value="986" />
   </component>
@@ -494,7 +502,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="64" width="1400" height="986" extended-state="0" />
+    <frame x="228" y="34" width="1400" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -545,7 +553,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,7 +571,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="1065">
           <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -581,7 +589,7 @@
         <state vertical-scroll-proportion="1.0152403" vertical-offset="94" max-vertical-offset="1065">
           <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,7 +599,7 @@
         <state vertical-scroll-proportion="0.5978898" vertical-offset="0" max-vertical-offset="853">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,7 +609,7 @@
         <state vertical-scroll-proportion="0.08792497" vertical-offset="0" max-vertical-offset="853">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,10 +648,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6154748" vertical-offset="0" max-vertical-offset="853">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
           <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93419504" vertical-offset="0" max-vertical-offset="885">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
