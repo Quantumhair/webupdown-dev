@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_form.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_view.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/static/js/app.js" afterPath="$PROJECT_DIR$/webupdownapp/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/accounts/views.py" afterPath="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
     </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1260">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.8589894" vertical-offset="409" max-vertical-offset="1305">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_item_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account_item_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.054413542" vertical-offset="0" max-vertical-offset="827">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="525">
               <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/static/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1050">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -100,9 +110,10 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_cru.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_view.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_form.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/static/js/app.js" />
+        <option value="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
       </list>
     </option>
   </component>
@@ -681,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1260">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
@@ -701,9 +702,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/accounts/account_item_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054413542" vertical-offset="0" max-vertical-offset="827">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="525">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1050">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8589894" vertical-offset="409" max-vertical-offset="1305">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
