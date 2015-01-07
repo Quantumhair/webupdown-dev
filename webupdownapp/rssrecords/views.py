@@ -3,6 +3,9 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
+from django.http import HttpResponseForbidden
+from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 
 from .models import Rssrecord
 from .forms import RssRecordsForm
@@ -32,10 +35,28 @@ class RssRecordList(ListView):
         return super(RssRecordList, self).dispatch(*args, **kwargs)
 
 @login_required()
-def rssrecord_cru(request):
+def account_detail(request, uuid):
+
+    account = Account.objects.get(uuid=uuid)
+    if account.owner != request.user:
+            return HttpResponseForbidden()
+
+    variables = {
+        'account': account,
+    }
+
+@login_required()
+def rssrecord_cru(request, uuid=None):
+
+    if uuid:
+        rssrecord = get_object_or_404(Rssrecord, uuid=uuid)
+        if rssrecord.owner != request.user:
+            return HttpResponseForbidden()
+    else:
+        rssrecord = Rssrecord(owner=request.user)
 
     if request.POST:
-        form = RssRecordsForm(request.POST)
+        form = RssRecordsForm(request.POST, instance=rssrecord)
         if form.is_valid():
             rssrecord = form.save(commit=False)
             rssrecord.owner = request.user
@@ -46,10 +67,11 @@ def rssrecord_cru(request):
             )
             return HttpResponseRedirect(redirect_url)
     else:
-        form = RssRecordsForm()
+        form = RssRecordsForm(instance=rssrecord)
 
     variables = {
         'form': form,
+        'rssrecord': rssrecord
     }
 
     template = 'rssrecords/rssrecord_cru.html'

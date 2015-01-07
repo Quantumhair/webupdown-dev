@@ -3,6 +3,7 @@ from django.contrib import admin
 from accounts.views import AccountList
 from accounts.urls import account_urls
 from rssrecords.views import RssRecordList
+from rssrecords.urls import rssrecords_urls
 
 admin.autodiscover()
 
@@ -46,11 +47,13 @@ urlpatterns = patterns('',
     # Communication related URLs
 
     # RSS records related URLs
-    url(r'^account/new/$',
+    url(r'^rssrecords/new/$',
     'webupdownapp.rssrecords.views.rssrecord_cru', name='rssrecord_new'
-),
+    ),
     url(r'^rssrecords/list/$',
         RssRecordList.as_view(), name='rssrecords_list'
+    ),
+    url(r'^rssrecords/(?P<uuid>[\w-]+)/', include(rssrecords_urls)
     ),
 
 )
