@@ -6,6 +6,7 @@ from .models import Rssrecord
 
 class RssRecordList(ListView):
     model = Rssrecord
+    paginate_by = 10
     template_name = 'rssrecords/rssrecord_list.html'
     context_object_name = 'rssrecords'
 
