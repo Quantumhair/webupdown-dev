@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="" />
+    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webupdownapp/web2records/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/settings.py" afterPath="$PROJECT_DIR$/webupdownapp/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,13 +34,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38307872" vertical-offset="409" max-vertical-offset="1305">
+            <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1305">
               <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.052878965" vertical-offset="0" max-vertical-offset="851">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +94,10 @@
         <option value="$PROJECT_DIR$/webupdownapp/accounts/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/500.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/404.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/web2records/models.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/web2records/admin.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/admin.py" />
       </list>
     </option>
   </component>
@@ -68,8 +105,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="34" />
+    <option name="x" value="169" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="986" />
   </component>
@@ -467,7 +504,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="34" width="1400" height="986" extended-state="0" />
+    <frame x="169" y="45" width="1400" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,10 +718,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38307872" vertical-offset="409" max-vertical-offset="1305">
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1305">
           <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052878965" vertical-offset="0" max-vertical-offset="851">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -57,7 +57,7 @@ INSTALLED_APPS = (
     'webupdownapp.marketing',
     'webupdownapp.subscribers',
     'webupdownapp.accounts',
-    'webupdownapp.web2records',
+    'webupdownapp.rssrecords',
 )
 
 MIDDLEWARE_CLASSES = (
