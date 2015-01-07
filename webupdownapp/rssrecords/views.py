@@ -11,8 +11,18 @@ class RssRecordList(ListView):
     context_object_name = 'rssrecords'
 
     def get_queryset(self):
-        account_list = Rssrecord.objects.filter(owner=self.request.user)
-        return account_list
+        try:
+            a = self.request.GET.get('rssrecord',)
+        except KeyError:
+            a = None
+        if a:
+            rssrecords_list = Rssrecord.objects.filter(
+                name__icontains=a,
+                owner=self.request.user
+            )
+        else:
+            rssrecords_list = Rssrecord.objects.filter(owner=self.request.user)
+        return rssrecords_list
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
