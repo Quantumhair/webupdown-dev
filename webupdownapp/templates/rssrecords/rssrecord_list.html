@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}RSS Feed URL List{% endblock title %}
+
+{% block content %}
+    <div id="content-container" class="container p-none">
+        <div id="al-container" class="side-p">
+            <div id="al-control">
+                <h3 class="ad-mh">RSS Feed URL List
+                    {# Add RSS Record Link #}
+                </h3>
+                {# RSS Record Search Form #}
+            </div>
+            {# List of Accounts #}
+            <ul id="al-group" class="strip-list">
+                {% for rssrecord in rssrecords %}
+                    <li class="al-item">
+                        <a href=""><h4 class="al-name">{{ rssrecord.name }}</h4></a>
+                        <span class="al-created">created on {{ rssrecord.created_on }}</span>
+			<span class="al-url">URL: {{ rssrecord.url }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+            {# Pagination Section #}
+        </div>
+    </div>
+{% endblock content %}

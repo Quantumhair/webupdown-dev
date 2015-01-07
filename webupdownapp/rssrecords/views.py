@@ -6,7 +6,7 @@ from .models import Rssrecord
 
 class RssRecordList(ListView):
     model = Rssrecord
-    template_name = 'rssrecords/rssrecords_list.html'
+    template_name = 'rssrecords/rssrecord_list.html'
     context_object_name = 'rssrecords'
 
     def get_queryset(self):
