@@ -46,6 +46,9 @@ urlpatterns = patterns('',
     # Communication related URLs
 
     # RSS records related URLs
+    url(r'^account/new/$',
+    'webupdownapp.rssrecords.views.rssrecord_cru', name='rssrecord_new'
+),
     url(r'^rssrecords/list/$',
         RssRecordList.as_view(), name='rssrecords_list'
     ),
