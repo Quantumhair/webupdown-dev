@@ -35,15 +35,16 @@ class RssRecordList(ListView):
         return super(RssRecordList, self).dispatch(*args, **kwargs)
 
 @login_required()
-def account_detail(request, uuid):
+def rssrecord_detail(request, uuid):
 
-    account = Account.objects.get(uuid=uuid)
-    if account.owner != request.user:
+    rssrecord = Rssrecord.objects.get(uuid=uuid)
+    if rssrecord.owner != request.user:
             return HttpResponseForbidden()
 
     variables = {
-        'account': account,
+        'rssrecord': rssrecord,
     }
+    return render(request, 'rssrecords/rssrecord_detail.html', variables)
 
 @login_required()
 def rssrecord_cru(request, uuid=None):

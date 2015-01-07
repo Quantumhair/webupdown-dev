@@ -15,7 +15,7 @@
                 {# RSS Record Search Form #}
                 <form action="{% url 'account_list' %}" method="get">
                     <input id="al-search" type="text"
-                            name="account" value="{{ request.GET.account }}"
+                            name="account" value="{{ request.GET.rssrecord }}"
                         class="form-control" />
                     <input type="submit"
                             value="Search" class="btn btn-success" />
@@ -25,7 +25,7 @@
             <ul id="al-group" class="strip-list">
                 {% for rssrecord in rssrecords %}
                     <li class="al-item">
-                        <h4 class="al-name">{{ rssrecord.name }}</h4>
+                        <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>
                         <span class="al-created">First uploaded on {{ rssrecord.created_on }}</span>
                         <br>
 			            <span class="al-url">URL: {{ rssrecord.url }}</span>

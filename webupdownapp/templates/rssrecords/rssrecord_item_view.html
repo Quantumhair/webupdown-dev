@@ -1,0 +1,21 @@
+<div class="gi-header">
+    <h3 class="ad-mh">{{ rssrecord.name }}
+        {# RSS URL Edit Link #}
+        <span>
+            <a class="ad-control edit-account btn btn-link"
+                href="{{ rssrecord.get_update_url }}">Edit</a>
+        </span>
+    </h3>
+
+</div>
+<div class="row gi-body">
+    <div class="col-md-9">
+        <h5 class="gi-sh">Description</h5>
+        <p>{{ rssrecord.desc }}</p>
+        <h5>URL</h5>
+        <p>{{  rssrecord.url }}</p>
+    </div>
+    <div class="col-md-3">
+        <h5 class="gi-sh">Place Holder</h5>
+    </div>
+</div>
