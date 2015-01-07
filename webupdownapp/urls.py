@@ -2,6 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from accounts.views import AccountList
 from accounts.urls import account_urls
+from rssrecords.views import RssRecordsList
 
 admin.autodiscover()
 
@@ -43,5 +44,10 @@ urlpatterns = patterns('',
 
 
     # Communication related URLs
+
+    # RSS records related URLs
+    url(r'^rssrecords/list/$',
+        RssRecordsList.as_view(), name='rssrecords_list'
+    ),
 
 )
