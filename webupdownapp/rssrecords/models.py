@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from datetime import datetime
+from datetime import date
 
 from shortuuidfield import ShortUUIDField
 
@@ -11,6 +13,8 @@ class Rssrecord(models.Model):
     desc = models.TextField(blank=True)
     owner = models.ForeignKey(User)
     created_on = models.DateField(auto_now_add=True)
+    last_checked = models.DateField(auto_now=True, default=date(1970,01,01))
+    #last_checked = models.DateTimeField(auto_now=True, blank=True)
 
     class Meta:
         verbose_name_plural = 'rssrecords'
