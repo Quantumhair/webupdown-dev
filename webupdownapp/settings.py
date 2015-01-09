@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 from django.core.exceptions import ImproperlyConfigured
+import djcelery
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -58,6 +59,8 @@ INSTALLED_APPS = (
     'webupdownapp.subscribers',
     'webupdownapp.accounts',
     'webupdownapp.rssrecords',
+    'djcelery',
+    'kombu.transport.django'  #used for dev brokering - remove for production
 )
 
 MIDDLEWARE_CLASSES = (
@@ -88,6 +91,11 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+# Celery Setup
+
+djcelery.setup_loader()
+BROKER_URL = 'django://'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
