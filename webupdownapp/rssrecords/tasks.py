@@ -8,7 +8,8 @@ def dbtest():
     id = None
 
     try:
-        conn = psycopg2.connect("dbname='webupdownusersDB' user='postgres' host='localhost' password='3skateboard'")
+        conn = psycopg2.connect("dbname='webupdownusersDB' user='postgres' host='ec2-54-225-115-77.compute-1.amazonaws.com:5432' password='3skateboard'")
+        # change host back to 'localhostl' for use on local machine. also, that host can change, use ENV VAR to call host from heroku
     except:
         print "I am unable to connect to the database"
 
