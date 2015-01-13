@@ -49,7 +49,7 @@ def subscriber_new(request, template='subscribers/subscriber_new.html'):
             if a_u is not None:
                 if a_u.is_active:
                     login(request, a_u)
-                    return HttpResponseRedirect(reverse('account_list'))
+                    return HttpResponseRedirect(reverse('rssrecords_list'))
                 else:
                     return HttpResponseRedirect(
                         reverse('django.contrib.auth.views.login')
