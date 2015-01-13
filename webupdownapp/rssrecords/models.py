@@ -14,7 +14,7 @@ class Rssrecord(models.Model):
     owner = models.ForeignKey(User)
     created_on = models.DateField(auto_now_add=True)
     last_checked = models.DateField(auto_now=True, default=date(1970,01,01))
-    #last_checked = models.DateTimeField(auto_now=True, blank=True)
+    upordown = models.CharField(max_length=15, default='not yet checked')
 
     class Meta:
         verbose_name_plural = 'rssrecords'
