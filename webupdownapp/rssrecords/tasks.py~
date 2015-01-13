@@ -1,6 +1,18 @@
+from celery import task
 import psycopg2
 import feedparser
 
+
+
+@task()
+def add(x, y):
+    return x + y
+
+@task()
+def multiply(x, y):
+    return x * y
+
+@task()
 def dbtest():
     conn = None
     holder = []
