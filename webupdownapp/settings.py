@@ -60,7 +60,7 @@ INSTALLED_APPS = (
     'webupdownapp.accounts',
     'webupdownapp.rssrecords',
     'djcelery',
-    'kombu.transport.django'  #used for dev brokering - remove for production
+    #'kombu.transport.django'  #used for dev brokering - remove for production
 )
 
 MIDDLEWARE_CLASSES = (
