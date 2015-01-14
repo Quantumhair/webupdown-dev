@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" line="37" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/subscribers/forms.py" afterPath="$PROJECT_DIR$/webupdownapp/subscribers/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/subscribers/views.py" afterPath="$PROJECT_DIR$/webupdownapp/subscribers/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +28,9 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="webupdown" />
@@ -33,7 +40,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="1275">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1275">
               <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -42,11 +49,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rssrecord_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rssrecord_item_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="rssrecord_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.375" vertical-offset="33" max-vertical-offset="990">
-              <caret line="30" column="41" selection-start-line="28" selection-start-column="2" selection-end-line="32" selection-end-column="90" />
+            <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="990">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriber_new.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="52.5" vertical-offset="1395" max-vertical-offset="2490">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -64,82 +101,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rssrecord_item_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subscriber_new.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2742475" vertical-offset="534" max-vertical-offset="2490">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1284" max-vertical-offset="2250">
-              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
-                <element signature="e#320#329#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.3469163" vertical-offset="0" max-vertical-offset="1515">
+              <caret line="21" column="21" selection-start-line="3" selection-start-column="0" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1421169705937" expanded="true" signature="611:652" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421169705937" expanded="true" signature="3018:3113" placeholder="UPDATE rssre..." />
-                <marker date="1421169705937" expanded="true" signature="3125:3126" placeholder="UPDATE rssre..." />
-                <marker date="1421169705937" expanded="true" signature="3845:3942" placeholder="UPDATE rssre..." />
+                <marker date="1421188061157" expanded="true" signature="729:770" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1421188061157" expanded="true" signature="3136:3231" placeholder="UPDATE rssre..." />
+                <marker date="1421188061157" expanded="true" signature="3243:3244" placeholder="UPDATE rssre..." />
+                <marker date="1421188061157" expanded="true" signature="3963:4060" placeholder="UPDATE rssre..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.916667" vertical-offset="0" max-vertical-offset="975">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="225" max-vertical-offset="1455">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -152,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webupdownapp/subscribers/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/accounts/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/accounts/admin.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/accounts/account_detail.html" />
@@ -182,11 +166,13 @@
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/RSS reader.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/base.html" />
         <option value="$PROJECT_DIR$/webupdownapp/settings.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/subscribers/views.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/subscribers/forms.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
       </list>
     </option>
   </component>
@@ -229,6 +215,14 @@
               <option name="myItemId" value="webupdown" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.6 virtualenv at ~/PycharmProjects/webupdown/venv &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -251,24 +245,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,10 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subscribers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,47 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="subscribers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="rssrecords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssrecords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSS reader testing scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,6 +334,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -768,10 +703,10 @@
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1421169705937" expanded="true" signature="611:652" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421169705937" expanded="true" signature="3018:3113" placeholder="UPDATE rssre..." />
-            <marker date="1421169705937" expanded="true" signature="3125:3126" placeholder="UPDATE rssre..." />
-            <marker date="1421169705937" expanded="true" signature="3845:3942" placeholder="UPDATE rssre..." />
+            <marker date="1421188061157" expanded="true" signature="729:770" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421188061157" expanded="true" signature="3136:3231" placeholder="UPDATE rssre..." />
+            <marker date="1421188061157" expanded="true" signature="3243:3244" placeholder="UPDATE rssre..." />
+            <marker date="1421188061157" expanded="true" signature="3963:4060" placeholder="UPDATE rssre..." />
           </folding>
         </state>
       </provider>
@@ -972,54 +907,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.375" vertical-offset="33" max-vertical-offset="990">
-          <caret line="30" column="41" selection-start-line="28" selection-start-column="2" selection-end-line="32" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="1275">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/marketing/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="921">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8631922" vertical-offset="0" max-vertical-offset="921">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -1048,25 +939,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.93485343" vertical-offset="1284" max-vertical-offset="2250">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1421169705937" expanded="true" signature="611:652" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421169705937" expanded="true" signature="3018:3113" placeholder="UPDATE rssre..." />
-            <marker date="1421169705937" expanded="true" signature="3125:3126" placeholder="UPDATE rssre..." />
-            <marker date="1421169705937" expanded="true" signature="3845:3942" placeholder="UPDATE rssre..." />
+            <element signature="e#320#329#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="225" max-vertical-offset="1455">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,9 +957,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23411371" vertical-offset="225" max-vertical-offset="1455">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.916667" vertical-offset="0" max-vertical-offset="975">
+        <state vertical-scroll-proportion="0.5254237" vertical-offset="0" max-vertical-offset="975">
           <caret line="31" column="50" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="50" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
@@ -1088,29 +975,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/settings.py">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1284" max-vertical-offset="2250">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <element signature="e#320#329#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2742475" vertical-offset="534" max-vertical-offset="2490">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state vertical-scroll-proportion="52.5" vertical-offset="1395" max-vertical-offset="2490">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="990">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="1275">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3469163" vertical-offset="0" max-vertical-offset="1515">
+          <caret line="21" column="21" selection-start-line="3" selection-start-column="0" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1421188061157" expanded="true" signature="729:770" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421188061157" expanded="true" signature="3136:3231" placeholder="UPDATE rssre..." />
+            <marker date="1421188061157" expanded="true" signature="3243:3244" placeholder="UPDATE rssre..." />
+            <marker date="1421188061157" expanded="true" signature="3963:4060" placeholder="UPDATE rssre..." />
+          </folding>
         </state>
       </provider>
     </entry>
