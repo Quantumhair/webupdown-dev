@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/installed-files.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/not-zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/requires.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml-3.4.1-py2.7.egg-info/top_level.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/etree.so" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/etree.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/objectify.so" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/objectify.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/isoschematron/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/isoschematron/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/builder.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/clean.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/clean.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/defs.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/defs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/diff.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/diff.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/doctestcompare.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/doctestcompare.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/dtdvalid.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/dtdvalid.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/etree_defs.h" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/etree_defs.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/etreepublic.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/etreepublic.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/formfill.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/formfill.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/html5parser.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/html/html5parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/htmlparser.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/htmlparser.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/lxml-version.h" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/lxml-version.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/lxml.etree.h" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/lxml.etree.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/lxml.etree_api.h" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/lxml.etree_api.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/pyclasslookup.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/pyclasslookup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/relaxng.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/relaxng.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/sax.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/sax.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/schematron.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/schematron.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/tree.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/tree.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xinclude.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xinclude.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xmlerror.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xmlerror.pxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xmlparser.pxd" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/lxml/includes/xmlparser.pxd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/base.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/base.html" />
     </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11673152" vertical-offset="0" max-vertical-offset="1200">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5421687" vertical-offset="450" max-vertical-offset="1470">
+              <caret line="57" column="110" selection-start-line="57" selection-start-column="110" selection-end-line="57" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -120,7 +93,6 @@
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/RSS reader.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/templates/base.html" />
         <option value="$PROJECT_DIR$/webupdownapp/settings.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html" />
         <option value="$PROJECT_DIR$/webupdownapp/subscribers/views.py" />
@@ -128,6 +100,7 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html" />
         <option value="$PROJECT_DIR$/../webupdownLOCAL/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/base.html" />
       </list>
     </option>
   </component>
@@ -624,29 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422028613364" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422028613364" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
-            <marker date="1422028613364" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
-            <marker date="1422028613364" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../webupdownLOCAL/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1155">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="e#83#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1275">
@@ -725,6 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="405">
           <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="900">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,6 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23579203" vertical-offset="0" max-vertical-offset="827">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,6 +760,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,6 +821,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,13 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06514658" vertical-offset="0" max-vertical-offset="921">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033444814" vertical-offset="0" max-vertical-offset="897">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -908,6 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1791531" vertical-offset="0" max-vertical-offset="921">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,6 +876,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1791531" vertical-offset="0" max-vertical-offset="921">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,14 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23411371" vertical-offset="225" max-vertical-offset="1455">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
@@ -967,7 +913,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1155">
           <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding>
-            <element signature="e#83#122#0" expanded="true" />
+            <element signature="e#83#122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -990,7 +936,7 @@
         <state vertical-scroll-proportion="0.35019454" vertical-offset="0" max-vertical-offset="771">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1047,10 +993,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04016064" vertical-offset="0" max-vertical-offset="747">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssnotchecked_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11673152" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5421687" vertical-offset="450" max-vertical-offset="1470">
+          <caret line="57" column="110" selection-start-line="57" selection-start-column="110" selection-end-line="57" selection-end-column="110" />
           <folding />
         </state>
       </provider>
