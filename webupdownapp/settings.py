@@ -82,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'webupdownusersDB',
-        'USER': 'postgres',
+        'USER': 'aekxaxttfecntl',
         'PASSWORD': WEBUPDOWNUSERS_DB_PASS,
-        'HOST': '127.0.0.1',
+        'HOST': 'ec2-54-225-115-77.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
