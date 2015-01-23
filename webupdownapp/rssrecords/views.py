@@ -7,10 +7,25 @@ from django.http import HttpResponseForbidden
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
 
+
 from .models import Rssrecord
 from .forms import RssRecordsForm
 
+
+@login_required()
+def rssrecord_summary(request):
+
+    total = Rssrecord.objects.filter(owner=request.user).count()
+    totalup = Rssrecord.objects.filter(upordown='UP').count()
+    totaldown = Rssrecord.objects.filter(upordown='Down').count()
+    totalnotchecked = Rssrecord.objects.filter(upordown='not yet checked').count()
+
+    return render(request, 'rssrecords/rssrecord_summary.html', {'totalup': totalup, 'total': total, 'totaldown':totaldown, 'totalnotchecked': totalnotchecked })
+
+
+
 class RssRecordList(ListView):
+
     model = Rssrecord
     paginate_by = 10
     template_name = 'rssrecords/rssrecord_list.html'
@@ -24,7 +39,7 @@ class RssRecordList(ListView):
         if a:
             rssrecords_list = Rssrecord.objects.filter(
                 name__icontains=a,
-                owner=self.request.user
+                owner=self.request.user,
             )
         else:
             rssrecords_list = Rssrecord.objects.filter(owner=self.request.user)
@@ -33,6 +48,55 @@ class RssRecordList(ListView):
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):
         return super(RssRecordList, self).dispatch(*args, **kwargs)
+
+class RssUpList(ListView):
+
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rssup_list.html'
+    context_object_name = 'rssup'
+
+    def get_queryset(self):
+
+        rssup_list = Rssrecord.objects.filter(owner=self.request.user, upordown='UP')
+        return rssup_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(RssUpList, self).dispatch(*args, **kwargs)
+
+class RssDownList(ListView):
+
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rssdown_list.html'
+    context_object_name = 'rssdown'
+
+    def get_queryset(self):
+
+        rssdown_list = Rssrecord.objects.filter(owner=self.request.user, upordown='DOWN')
+        return rssdown_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(RssDownList, self).dispatch(*args, **kwargs)
+
+class RssNotCheckedList(ListView):
+
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rssnotchecked_list.html'
+    context_object_name = 'rssnotchecked'
+
+    def get_queryset(self):
+
+        rssnotchecked_list = Rssrecord.objects.filter(owner=self.request.user, upordown='not yet checked')
+        return rssnotchecked_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(RssNotCheckedList, self).dispatch(*args, **kwargs)
+
 
 @login_required()
 def rssrecord_detail(request, uuid):
@@ -78,3 +142,6 @@ def rssrecord_cru(request, uuid=None):
     template = 'rssrecords/rssrecord_cru.html'
 
     return render(request, template, variables)
+
+
+
