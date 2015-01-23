@@ -17,5 +17,5 @@ six==1.9.0
 static3==0.5.1
 stripe==1.19.1
 lxml==3.1.2
-urllib2
+urllib2==2.4
 
