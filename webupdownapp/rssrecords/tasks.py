@@ -142,7 +142,7 @@ def GooglePlusUpdate():
     print todaysdate
 
     try:
-        conn = psycopg2.connect("dbname='webupdownusersDB' user='postgres' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
+        conn = psycopg2.connect("dbname='d20kid2g0f7d7a' user='aekxaxttfecntl' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
     except:
         print "I am unable to connect to the database\n"
 
@@ -224,7 +224,7 @@ def RssUpdate():
     print todaysdate
 
     try:
-        conn = psycopg2.connect("dbname='webupdownusersDB' user='postgres' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
+        conn = psycopg2.connect("dbname='d20kid2g0f7d7a' user='aekxaxttfecntl' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
     except:
         print "I am unable to connect to the database"
 
@@ -297,7 +297,7 @@ def dbtest():
     id = None
 
     try:
-        conn = psycopg2.connect("dbname='webupdownusersDB' user='postgres' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
+        conn = psycopg2.connect("dbname='d20kid2g0f7d7a' user='aekxaxttfecntl' host='ec2-54-225-115-77.compute-1.amazonaws.com' password='dKNAV1_vFR0Q_fDBvKcATgdHzU'")
         # change host back to 'localhostl' for use on local machine. also, that host can change, use ENV VAR to call host from heroku
         #dbname='webupdownusersDB' user='postgres' password='3skateboard'
     except:
