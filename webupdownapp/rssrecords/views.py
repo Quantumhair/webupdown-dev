@@ -17,7 +17,7 @@ def rssrecord_summary(request):
 
     total = Rssrecord.objects.filter(owner=request.user).count()
     totalup = Rssrecord.objects.filter(upordown='UP').count()
-    totaldown = Rssrecord.objects.filter(upordown='Down').count()
+    totaldown = Rssrecord.objects.filter(upordown='DOWN').count()
     totalnotchecked = Rssrecord.objects.filter(upordown='not yet checked').count()
 
     return render(request, 'rssrecords/rssrecord_summary.html', {'totalup': totalup, 'total': total, 'totaldown':totaldown, 'totalnotchecked': totalnotchecked })
