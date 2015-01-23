@@ -16,10 +16,8 @@
         <p>{{  rssrecord.url }}</p>
         <h5>First uploaded on</h5>
         <p>{{ rssrecord.created_on }}</p>
-        {%  if rssrecord.last_checked == 'not yet checked' %}
-            <h5>Last checked on</h5>
-            <p>{{ rssrecord.last_checked }}</p>
-        {%  endif  %}
+        <h5>Last checked on</h5>
+        <p>{{ rssrecord.last_checked }}</p>
         <h5>Site status was:</h5>
         <p>{{ rssrecord.upordown }}</p>
     </div>

@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}RSS Feed URL List{% endblock title %}
 
+
 {% block content %}
     <div id="content-container" class="container p-none">
         <div id="al-container" class="side-p">
@@ -12,7 +13,7 @@
                             class="btn btn-link p-r-none">+ Add New RSS URL</a>
                     </span>
                 </h3>
-                {# RSS Record Search Form #}
+                RSS Record Search Form
                 <form action="{% url 'account_list' %}" method="get">
                     <input id="al-search" type="text"
                             name="account" value="{{ request.GET.rssrecord }}"
@@ -21,7 +22,9 @@
                             value="Search" class="btn btn-success" />
                 </form>
             </div>
-            {# List of Accounts #}
+            List of Accounts
+
+
             <ul id="al-group" class="strip-list">
                 {% for rssrecord in rssrecords %}
                     <li class="al-item">
@@ -36,7 +39,7 @@
                     </li>
                 {% endfor %}
             </ul>
-            {# Pagination Section #}
+            Pagination Section
             {% if is_paginated %}
                 <div id="al-paginate">
                     <ul class="strip-list al-pgnt-list">
