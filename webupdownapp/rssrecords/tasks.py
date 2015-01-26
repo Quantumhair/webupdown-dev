@@ -35,11 +35,9 @@ def AllUpdate():
 def TwitterUpdate():
 
     conn = None
-    holder = []
-    dates = []
+
     x = 0
     format = None
-    datecounter = 0
     todaysdate = datetime.now().timetuple()
     print todaysdate
     soup = None
@@ -58,12 +56,12 @@ def TwitterUpdate():
         print "  ", row[0]
     print "\n"
 
-    for row in rows:   #reads in a row at a time and appends it to holder list
-        holder.append(row)
+    # for row in rows:   #reads in a row at a time and appends it to holder list
+    #     holder.append(row)
 
 
 
-    for item in holder:
+    for row in rows:
         try:
 
             headers = {'User-Agent': 'Mozilla/5 (Solaris 10) Gecko'}
@@ -73,11 +71,14 @@ def TwitterUpdate():
             # soup = BeautifulSoup(page_content)
             # print soup
 
-            print str(item[0]).strip('[\'\']')
-            req = urllib2.Request(str(item[0]).strip('[\'\']'), headers=headers)
+            print str(row[0]).strip('[\'\']')
+            req = urllib2.Request(str(row[0]).strip('[\'\']'), headers=headers)
             page = urllib2.urlopen(req)
             soup = BeautifulSoup(page)
             soup.prettify()
+
+            datecounter = 0
+            dates = []
 
             for span in soup.findAll("span"):
 
@@ -135,7 +136,6 @@ def TwitterUpdate():
 
 def GooglePlusUpdate():
     conn = None
-    holder = []
     x = 0
     format = None
     todaysdate = datetime.now().timetuple()
@@ -155,19 +155,19 @@ def GooglePlusUpdate():
         print "  ", row[0]
     print "\n"
 
-    for row in rows:   #reads in a row at a time and appends it to holder list
-        holder.append(row)
-        #print"this is item #:", x, " - ", row[0]
-        ++x
+    # for row in rows:   #reads in a row at a time and appends it to holder list
+    #     holder.append(row)
+    #     #print"this is item #:", x, " - ", row[0]
+    #     ++x
 
 
 
-    for item in holder:
+    for row in rows:
         try:
 
             headers = {'User-Agent':'Mozilla/5 (Solaris 10) Gecko'}
 
-            page = requests.get(str(item[0]).strip('[\'\']'), headers = headers)
+            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers)
             tree = html.fromstring(page.text)
 
             dates = tree.xpath('//a[@class="o-U-s FI Rg"]/text()')
