@@ -10,6 +10,7 @@ from django.shortcuts import get_object_or_404
 
 from .models import Rssrecord
 from .forms import RssRecordsForm
+from .forms import CsvUploadForm
 
 
 @login_required()
@@ -143,5 +144,38 @@ def rssrecord_cru(request, uuid=None):
 
     return render(request, template, variables)
 
+@login_required()
+def rssrecord_upload(request):
+
+    rssrecord = Rssrecord(owner=request.user)
+    x = 0
+
+    if request.POST:
+        form2 = CsvUploadForm(request.POST, request.FILES)
+        if form2.is_valid():
+
+            thefile = request.FILES['uploadfile']
+
+            for line in thefile:
+                rssrecord = Rssrecord(owner=request.user)
+                rssrecord.url = line.rstrip('\n')
+                rssrecord.owner = request.user
+                rssrecord.save()
+
+            redirect_url = reverse(
+                'webupdownapp.rssrecords.views.rssrecord_summary'
+            )
+            return HttpResponseRedirect(redirect_url)
+    else:
+        form2 = CsvUploadForm()
+
+    variables = {
+        'form2': form2,
+        'rssrecord': rssrecord,
+    }
+
+    template = 'rssrecords/rssrecord_upload.html'
+
+    return render(request, template, variables)
 
 
