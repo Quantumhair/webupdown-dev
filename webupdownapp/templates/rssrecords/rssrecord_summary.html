@@ -9,10 +9,13 @@
                <h3 class="ad-mh">Summary</h3>
                 <div>
                 <span class="pull-left">
+                        <h3>
+                            <p><a href="{% url 'rssdown_list' %}">Total Number Of URLs DOWN At Last Check: {{ totaldown }}</a></p>
+                        </h3>
                         <h4>
                             <p><a href="{% url 'rssrecords_list' %}">Total Number Of URLs In Account: {{ total }}</a></p>
                             <p><a href="{% url 'rssup_list' %}">Total Number Of URLs UP At Last Check: {{ totalup}}</a></p>
-                            <p><a href="{% url 'rssdown_list' %}">Total Number Of URLs DOWN At Last Check: {{ totaldown }}</a></p>
+
                             <p><a href="{% url 'rssnotchecked_list' %}">Total URLs Not Yet Checked: {{ totalnotchecked }}</a></p>
 
                         </h4>
