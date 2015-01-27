@@ -190,7 +190,7 @@ def GooglePlusUpdate():
                     #ease of reading
 
             except:
-                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down!""\n"  #if
+                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down! Error 1""\n"  #if
                 #there is an error above it means that there is no rss feed available at that url. In that case the site is
                 #likely down
 
@@ -200,10 +200,10 @@ def GooglePlusUpdate():
                 print "successfully updated database\n"
                 conn.commit()
             except:
-                print "unable to execute update to database\n"
+                print "unable to execute update to database Error 2\n"
 
         except:
-            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down!"
+            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down! Error 3"
             try:
                 id = row[1]
                 cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'DOWN', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
