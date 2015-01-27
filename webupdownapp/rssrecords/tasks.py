@@ -167,7 +167,7 @@ def GooglePlusUpdate():
 
             headers = {'User-Agent':'Mozilla/5 (Solaris 10) Gecko'}
 
-            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers)
+            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers, allow_redirects = True, timeout = 5)
             print "page request returned with status: ", page.status_code
             tree = html.fromstring(page.text)
 
