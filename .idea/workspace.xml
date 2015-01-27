@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" line="315" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="" />
+    <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+    </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,11 +37,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rssrecord_summary.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5646438" vertical-offset="1852" max-vertical-offset="2655">
+              <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rssrecord_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rssrecord_summary.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72289157" vertical-offset="0" max-vertical-offset="795">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="2" selection-end-line="39" selection-end-column="29" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="810">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -81,7 +104,6 @@
         <option value="$PROJECT_DIR$/webupdownapp/subscribers/forms.py" />
         <option value="$PROJECT_DIR$/../webupdownLOCAL/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/forms.py" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/urls.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/base.html" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
@@ -90,9 +112,10 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssdown_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/subscribers/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/subscribers/subscriber_new.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssup_list.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
       </list>
     </option>
   </component>
@@ -267,7 +290,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="subscribers" />
+              <option name="myItemId" value="rssrecords" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,7 +668,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="2370">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding>
-            <element signature="e#320#329#0" expanded="true" />
+            <element signature="e#320#329#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -857,7 +880,7 @@
         <state vertical-scroll-proportion="0.93485343" vertical-offset="1284" max-vertical-offset="2250">
           <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
           <folding>
-            <element signature="e#320#329#0" expanded="true" />
+            <element signature="e#320#329#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -874,29 +897,6 @@
         <state vertical-scroll-proportion="-0.0" vertical-offset="645" max-vertical-offset="1485">
           <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04016064" vertical-offset="0" max-vertical-offset="747">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12048193" vertical-offset="0" max-vertical-offset="747">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3815261" vertical-offset="0" max-vertical-offset="747">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -950,16 +950,6 @@
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0778365" vertical-offset="1755" max-vertical-offset="2805">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,10 +1018,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04016064" vertical-offset="0" max-vertical-offset="747">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3815261" vertical-offset="0" max-vertical-offset="747">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72289157" vertical-offset="0" max-vertical-offset="795">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="2" selection-end-line="39" selection-end-column="29" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="810">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5646438" vertical-offset="1852" max-vertical-offset="2655">
+          <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
           <folding />
         </state>
       </provider>
