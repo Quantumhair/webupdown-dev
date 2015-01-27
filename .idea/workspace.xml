@@ -79,21 +79,21 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5343008" vertical-offset="1995" max-vertical-offset="5100">
-              <caret line="169" column="26" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.25" vertical-offset="2310" max-vertical-offset="5100">
+              <caret line="175" column="36" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
               <folding>
-                <marker date="1422384302665" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422384302665" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422384302665" expanded="true" signature="6938:7033" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="7426:7523" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="8162:8358" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422384302665" expanded="true" signature="10354:10449" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="10826:10923" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="11702:11743" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422384302665" expanded="true" signature="12172:12267" placeholder="UPDATE rssre..." />
-                <marker date="1422384302665" expanded="true" signature="12913:13010" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422385796505" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422385796505" expanded="true" signature="6940:7035" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="7428:7525" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="8164:8360" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422385796505" expanded="true" signature="10356:10451" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="10828:10925" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="11704:11745" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422385796505" expanded="true" signature="12174:12269" placeholder="UPDATE rssre..." />
+                <marker date="1422385796505" expanded="true" signature="12915:13012" placeholder="UPDATE rssre..." />
               </folding>
             </state>
           </provider>
@@ -165,10 +165,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+    <option name="x" value="273" />
+    <option name="y" value="34" />
+    <option name="width" value="1157" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -632,7 +632,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <frame x="273" y="34" width="1157" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,7 +641,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15730338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -720,18 +720,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1422384302665" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="6938:7033" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="7426:7523" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="8162:8358" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="10354:10449" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="10826:10923" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="11702:11743" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="12172:12267" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="12913:13010" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="6940:7035" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="7428:7525" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="8164:8360" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="10356:10451" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="10828:10925" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="11704:11745" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="12174:12269" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="12915:13012" placeholder="UPDATE rssre..." />
           </folding>
         </state>
       </provider>
@@ -1091,21 +1091,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5343008" vertical-offset="1995" max-vertical-offset="5100">
-          <caret line="169" column="26" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.25" vertical-offset="2310" max-vertical-offset="5100">
+          <caret line="175" column="36" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
           <folding>
-            <marker date="1422384302665" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="6938:7033" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="7426:7523" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="8162:8358" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="10354:10449" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="10826:10923" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="11702:11743" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422384302665" expanded="true" signature="12172:12267" placeholder="UPDATE rssre..." />
-            <marker date="1422384302665" expanded="true" signature="12913:13010" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="1119:1192" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="3806:3901" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="4278:4375" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="5001:5073" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="6940:7035" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="7428:7525" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="8164:8360" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="10356:10451" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="10828:10925" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="11704:11745" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422385796505" expanded="true" signature="12174:12269" placeholder="UPDATE rssre..." />
+            <marker date="1422385796505" expanded="true" signature="12915:13012" placeholder="UPDATE rssre..." />
           </folding>
         </state>
       </provider>

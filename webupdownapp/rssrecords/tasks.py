@@ -173,7 +173,7 @@ def GooglePlusUpdate():
             dates = tree.xpath('//a[@class="o-U-s FI Rg"]/text()')
 
             print dates[0]
-            time.sleep(randint(1,3)) # random wait period to slow down IP blocking
+            time.sleep(randint(10,20)) # random wait period to slow down IP blocking
 
             try:
 
