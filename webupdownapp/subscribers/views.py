@@ -58,5 +58,4 @@ def subscriber_new(request, template='subscribers/subscriber_new.html'):
         form = SubscriberForm()
 
     return render(request, template,
-    {'form':form,
-     'STRIPE_PUBLISHABLE_KEY':settings.STRIPE_PUBLISHABLE_KEY})
+    {'form':form})
