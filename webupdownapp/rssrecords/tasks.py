@@ -1,6 +1,7 @@
 import psycopg2
 import feedparser
 from random import randint
+from random import choice
 from lxml import html
 import requests
 from datetime import datetime
@@ -166,8 +167,10 @@ def GooglePlusUpdate():
         try:
 
             headers = {'User-Agent':'Mozilla/5 (Solaris 10) Gecko'}
+            proxies = ['http://adamproxy:dog@173.0.57.198:80']
+            rand_proxy = choice(proxies)
 
-            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers, allow_redirects = True, timeout = 5)
+            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers, allow_redirects = True, timeout = 5, proxies = proxies)
             print "page request returned with status: ", page.status_code
             tree = html.fromstring(page.text)
 
