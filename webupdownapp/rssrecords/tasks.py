@@ -117,7 +117,7 @@ def TwitterUpdate():
             try:
                 timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                #cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
@@ -200,7 +200,7 @@ def GooglePlusUpdate():
             try:
                 timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                #cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
@@ -276,7 +276,7 @@ def RssUpdate():
             try:
                 timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                #cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
