@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import models, migrations
+import datetime
 import shortuuidfield.fields
 from django.conf import settings
 
@@ -22,6 +23,10 @@ class Migration(migrations.Migration):
                 ('url', models.URLField(max_length=150)),
                 ('desc', models.TextField(blank=True)),
                 ('created_on', models.DateField(auto_now_add=True)),
+                ('last_checked', models.DateField(default=datetime.date(1970, 1, 1), auto_now=True)),
+                ('upordown', models.CharField(default=b'not yet checked', max_length=15)),
+                ('dayssinceupdate', models.IntegerField(default=0)),
+                ('group', models.CharField(default=b'No Group', max_length=100)),
                 ('owner', models.ForeignKey(to=settings.AUTH_USER_MODEL)),
             ],
             options={
