@@ -25,8 +25,6 @@ class Migration(migrations.Migration):
                 ('created_on', models.DateField(auto_now_add=True)),
                 ('last_checked', models.DateField(default=datetime.date(1970, 1, 1), auto_now=True)),
                 ('upordown', models.CharField(default=b'not yet checked', max_length=15)),
-                ('dayssinceupdate', models.IntegerField(default=0)),
-                ('group', models.CharField(default=b'No Group', max_length=100)),
                 ('owner', models.ForeignKey(to=settings.AUTH_USER_MODEL)),
             ],
             options={
