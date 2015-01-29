@@ -5,7 +5,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-54-225-115-77.compute-1.amazonaws.com:5432/webupdownusersDB</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-225-115-77.compute-1.amazonaws.com:5432/d20kid2g0f7d7a</jdbc-url>
       <libraries />
     </data-source>
   </component>

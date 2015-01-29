@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'webupdownapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'webupdownusersDB',
+        'NAME': 'd20kid2g0f7d7a',
         'USER': 'aekxaxttfecntl',
-        'PASSWORD': WEBUPDOWNUSERS_DB_PASS,
+        'PASSWORD': 'dKNAV1_vFR0Q_fDBvKcATgdHzU',
         'HOST': 'ec2-54-225-115-77.compute-1.amazonaws.com',
         'PORT': '5432',
     }
