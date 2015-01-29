@@ -115,8 +115,9 @@ def TwitterUpdate():
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
@@ -197,8 +198,9 @@ def GooglePlusUpdate():
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
@@ -272,8 +274,9 @@ def RssUpdate():
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
