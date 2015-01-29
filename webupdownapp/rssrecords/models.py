@@ -17,7 +17,6 @@ class Rssrecord(models.Model):
     upordown = models.CharField(max_length=15, default='not yet checked')
     dayssinceupdate = models.IntegerField(default=0)
     group = models.CharField(max_length=100, default='No Group')
-    notes = models.TextField(max_length=250, default='notes')
 
     class Meta:
         verbose_name_plural = 'rssrecords'
