@@ -107,7 +107,7 @@ def TwitterUpdate():
                 format = '%I:%M %p - %d %b %Y'
 
                 difference = time.mktime(todaysdate) - int(time.mktime(time.strptime(dates[0],format))) #calculates differences
-                #in seconds from last RSS feed entry and the current date as of the start of this operation.
+                 #in seconds from last RSS feed entry and the current date as of the start of this operation.
                 if difference < 0:
                     print "RSS feed was last updated today"
 
