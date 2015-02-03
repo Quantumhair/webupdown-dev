@@ -284,10 +284,21 @@ def RssUpdate():
 
             try:
                 timesinceupdate = int(round(difference/86400))
-                id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
-                print "successfully updated database\n"
-                conn.commit()
+
+                if timesinceupdate < 0:
+
+                    id = row[1]
+                    cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = 0 WHERE uuid = %s""", (id,))
+                    print "successfully updated database\n"
+                    conn.commit()
+
+                else:
+
+                    id = row[1]
+                    cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
+                    print "successfully updated database\n"
+                    conn.commit()
+                    
             except:
                 print "unable to execute update to database\n"
 
