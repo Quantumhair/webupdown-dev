@@ -1,4 +1,4 @@
-import psycopg2
+ import psycopg2
 import feedparser
 from random import randint
 from lxml import html
