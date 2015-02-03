@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --noinput; gunicorn webupdownapp.wsgi
+web: newrelic-admin run-program python manage.py collectstatic --noinput; gunicorn webupdownapp.wsgi
