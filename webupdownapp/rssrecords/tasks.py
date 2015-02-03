@@ -241,7 +241,9 @@ def RssUpdate():
 
     cur = conn.cursor()
     cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%/feed%' OR url LIKE '%/rss%'
-        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' OR url LIKE '%.rss%'""")
+        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' OR url LIKE '%.rss%'
+        OR url LIKE '%feed=rss2%' OR url LIKE '%/atom/%' OR url LIKE '%.atom%' OR url LIKE '%?atom%'
+        OR url LIKE '%.rdf%' OR url LIKE '%=atom%' OR url LIKE '%rss.xml%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered RSS URLs from the database:\n"
