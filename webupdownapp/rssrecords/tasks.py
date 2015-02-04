@@ -1,4 +1,4 @@
- import psycopg2
+import psycopg2
 import feedparser
 from random import randint
 from lxml import html
@@ -298,7 +298,7 @@ def RssUpdate():
                     cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                     print "successfully updated database\n"
                     conn.commit()
-                    
+
             except:
                 print "unable to execute update to database\n"
 
