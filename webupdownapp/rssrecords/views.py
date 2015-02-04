@@ -196,7 +196,7 @@ def rssrecord_upload(request):
 class Rss_Seven_Days(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 25
     template_name = 'rssrecords/rss_seven_days.html'
     context_object_name = 'rss_seven_days'
 
@@ -213,7 +213,7 @@ class Rss_Seven_Days(ListView):
 class Rss_Seven_To_Fourteen(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 25
     template_name = 'rssrecords/rss_seven_to_fourteen.html'
     context_object_name = 'rss_seven_to_fourteen'
 
@@ -231,7 +231,7 @@ class Rss_Seven_To_Fourteen(ListView):
 class Rss_Over_Fourteen(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 25
     template_name = 'rssrecords/rss_over_fourteen.html'
     context_object_name = 'rss_over_fourteen'
 

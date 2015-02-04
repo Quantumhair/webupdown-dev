@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,34 +41,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.428572" vertical-offset="432" max-vertical-offset="4536">
-              <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+            <state vertical-scroll-proportion="5.518421" vertical-offset="0" max-vertical-offset="4536">
+              <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rssup_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssup_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.296296" vertical-offset="343" max-vertical-offset="1116">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1909" max-vertical-offset="2682">
-              <caret line="143" column="41" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1710">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="59" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -80,60 +65,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rssrecord_summary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
+      <file leaf-file-name="rss_seven_days.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.666667" vertical-offset="27" max-vertical-offset="1026">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state vertical-scroll-proportion="-27.148148" vertical-offset="95" max-vertical-offset="1098">
+              <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rssdown_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssdown_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1098">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31836733" vertical-offset="4428" max-vertical-offset="6732">
-              <caret line="259" column="30" selection-start-line="259" selection-start-column="30" selection-end-line="259" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1423058263563" expanded="true" signature="1401:1474" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1423058263563" expanded="true" signature="4152:4269" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="4662:4759" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="5385:5457" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1423058263563" expanded="true" signature="7461:7578" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="7987:8084" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="8723:8919" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1423058263563" expanded="true" signature="8723:9095" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1423058263563" expanded="true" signature="11189:11305" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="11504:11621" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="12023:12120" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="12899:12940" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1423058263563" expanded="true" signature="13369:13464" placeholder="UPDATE rssre..." />
-                <marker date="1423058263563" expanded="true" signature="14110:14207" placeholder="UPDATE rssre..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +123,12 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/settings.py" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+        <option value="$PROJECT_DIR$/../webupdownLOCAL/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
       </list>
     </option>
   </component>
@@ -223,7 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,10 +308,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webupdownLOCAL/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -506,32 +447,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdown" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -553,6 +468,32 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdown" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -597,6 +538,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdown" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -615,20 +570,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdown" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="webupdown" type="Python.DjangoServer" factoryName="Django server">
@@ -701,14 +642,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25236592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -736,44 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1423058263563" expanded="true" signature="1401:1474" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="4152:4269" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="4662:4759" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="5385:5457" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="7461:7578" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="7987:8084" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="8723:8919" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="8723:9095" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="11189:11305" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="11504:11621" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="12023:12120" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="12899:12940" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="13369:13464" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="14110:14207" placeholder="UPDATE rssre..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_item_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="405">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/subscribers/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
@@ -1012,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssdown_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="915">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/migrations/__init__.pyc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
@@ -1045,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1098">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="118" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,25 +954,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.296296" vertical-offset="532" max-vertical-offset="1278">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667" vertical-offset="27" max-vertical-offset="1026">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1026">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,19 +983,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.428572" vertical-offset="432" max-vertical-offset="4536">
-          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssup_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.296296" vertical-offset="343" max-vertical-offset="1116">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1116">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding />
         </state>
@@ -1120,24 +993,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31836733" vertical-offset="4428" max-vertical-offset="6732">
-          <caret line="259" column="30" selection-start-line="259" selection-start-column="30" selection-end-line="259" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.07105263" vertical-offset="2808" max-vertical-offset="6732">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1423058263563" expanded="true" signature="1401:1474" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="4152:4269" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="4662:4759" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="5385:5457" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="7461:7578" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="7987:8084" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="8723:8919" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="8723:9095" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="11189:11305" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="11504:11621" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="12023:12120" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="12899:12940" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1423058263563" expanded="true" signature="13369:13464" placeholder="UPDATE rssre..." />
-            <marker date="1423058263563" expanded="true" signature="14110:14207" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+            <marker date="1423058263563" expanded="true" signature="-1:-1" placeholder="UPDATE rssre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssdown_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="915">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63165075" vertical-offset="365" max-vertical-offset="1098">
+          <caret line="46" column="121" selection-start-line="46" selection-start-column="121" selection-end-line="46" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63165075" vertical-offset="365" max-vertical-offset="1098">
+          <caret line="46" column="133" selection-start-line="46" selection-start-column="133" selection-end-line="46" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1710">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.148148" vertical-offset="95" max-vertical-offset="1098">
+          <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.518421" vertical-offset="0" max-vertical-offset="4536">
+          <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
