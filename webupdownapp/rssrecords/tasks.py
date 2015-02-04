@@ -257,7 +257,7 @@ def RssUpdate():
             RSSfeed = feedparser.parse(row[0])
             print RSSfeed['feed']['title'], " Feed appears to be up! @: ", row[0]
             print "with UUID: ", row[1]
-            #time.sleep(randint(1,3)) # random wait period to slow down IP blocking
+            time.sleep(0.5) #  wait period to slow down IP blocking
             try:
                 #print RSSfeed['feed']['title'],":", str(row).strip('[\'\']')
                 #print RSSfeed.entries[0].published_parsed
