@@ -4,7 +4,6 @@ from datetime import date
 
 from shortuuidfield import ShortUUIDField
 
-
 class Rssrecord(models.Model):
     uuid = ShortUUIDField(unique=True)
     name = models.CharField(max_length=200)
