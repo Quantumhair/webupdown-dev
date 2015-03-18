@@ -8,6 +8,10 @@ import time
 from BeautifulSoup import BeautifulSoup
 import urllib2
 import re
+import socket
+
+
+socket.setdefaulttimeout(10) # global timeout for feedparser in seconds (may affect other items using urllib)
 
 
 def AllUpdate():
