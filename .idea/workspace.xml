@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b5ad1c-1056-4ba9-a583-f1cc5aa4d3ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webupdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,36 +51,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30789474" vertical-offset="0" max-vertical-offset="6804">
-              <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6804">
+              <caret line="61" column="86" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1426689577144" expanded="true" signature="1527:1600" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1426689577144" expanded="true" signature="4278:4395" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="4788:4885" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="5511:5583" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1426689577144" expanded="true" signature="7587:7704" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="8113:8210" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="8849:9221" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1426689577144" expanded="true" signature="11315:11431" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="11630:11747" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="12149:12246" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="13025:13066" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1426689577144" expanded="true" signature="13495:13590" placeholder="UPDATE rssre..." />
-                <marker date="1426689577144" expanded="true" signature="14236:14333" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="1527:1608" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1426787758238" expanded="true" signature="4286:4403" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="4796:4893" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="5519:5591" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1426787758238" expanded="true" signature="7595:7712" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="8121:8218" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="8857:9229" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1426787758238" expanded="true" signature="11323:11439" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="11638:11755" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="12157:12254" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="13033:13074" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1426787758238" expanded="true" signature="13503:13598" placeholder="UPDATE rssre..." />
+                <marker date="1426787758238" expanded="true" signature="14244:14341" placeholder="UPDATE rssre..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.20957309" vertical-offset="0" max-vertical-offset="773">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -87,7 +89,7 @@
       <file leaf-file-name="checkrss.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/management/commands/checkrss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="324">
               <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
@@ -180,10 +182,10 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/management/commands/checkrss.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/management/commands/checkrss.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
       </list>
     </option>
   </component>
@@ -219,6 +221,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,11 +330,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webupdownLOCAL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webupdownlocal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -486,32 +488,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdown" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -533,6 +509,32 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdown" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -577,20 +579,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdown" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -609,6 +597,20 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdown" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="webupdown" type="Python.DjangoServer" factoryName="Django server">
@@ -672,25 +674,25 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19563636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7185554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25236592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25236592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -718,6 +720,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1098">
+          <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/accounts/account_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="900">
@@ -841,13 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1791531" vertical-offset="0" max-vertical-offset="921">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../webupdownLOCAL/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1155">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33289474" vertical-offset="7289" max-vertical-offset="9828">
           <caret line="419" column="8" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="773">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,15 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33289474" vertical-offset="29141" max-vertical-offset="39708">
           <caret line="1637" column="0" selection-start-line="1637" selection-start-column="0" selection-end-line="1637" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,24 +1078,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30789474" vertical-offset="0" max-vertical-offset="6804">
-          <caret line="13" column="109" selection-start-line="13" selection-start-column="109" selection-end-line="13" selection-end-column="109" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6804">
+          <caret line="61" column="86" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1426689577144" expanded="true" signature="1527:1600" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1426689577144" expanded="true" signature="4278:4395" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="4788:4885" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="5511:5583" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1426689577144" expanded="true" signature="7587:7704" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="8113:8210" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="8849:9221" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1426689577144" expanded="true" signature="11315:11431" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="11630:11747" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="12149:12246" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="13025:13066" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1426689577144" expanded="true" signature="13495:13590" placeholder="UPDATE rssre..." />
-            <marker date="1426689577144" expanded="true" signature="14236:14333" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="1527:1608" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1426787758238" expanded="true" signature="4286:4403" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="4796:4893" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="5519:5591" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1426787758238" expanded="true" signature="7595:7712" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="8121:8218" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="8857:9229" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1426787758238" expanded="true" signature="11323:11439" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="11638:11755" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="12157:12254" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="13033:13074" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1426787758238" expanded="true" signature="13503:13598" placeholder="UPDATE rssre..." />
+            <marker date="1426787758238" expanded="true" signature="14244:14341" placeholder="UPDATE rssre..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20957309" vertical-offset="0" max-vertical-offset="773">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
